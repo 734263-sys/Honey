@@ -1,0 +1,123 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #181e26;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #242c3a;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #ffa500;
+}
+
+section {
+    margin: 2rem auto;
+    max-width: 700px;
+    background: #232936;
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+}
+
+h2 {
+    color: #ffd700;
+    margin-top: 0;
+}
+
+#team-members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0;
+}
+
+#team-members li {
+    background: #30394c;
+    padding: 0.75rem 1.25rem;
+    border-radius: 6px;
+    margin: 0;
+    list-style: none;
+    min-width: 120px;
+    text-align: center;
+}
+
+#team-stats {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+#join-form {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+#nt-username {
+    flex: 1;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    background: #ffd700;
+    color: #181e26;
+    border: none;
+    padding: 0.6rem 1.3rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button[type="submit"]:hover {
+    background: #ffa500;
+}
+
+#form-message {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background: #242c3a;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.95rem;
+    color: #aaa;
+}
